@@ -17,7 +17,7 @@ async function fetchData(url, retries = 3) {
 }
 
 (async () => {
-    const url = 'https://jsonplaceholder.typicode.com/posts/1';
+    const url = 'https://jsonplaceholder.typicode.com/poots/1';
     try {
         const data = await fetchData(url);
         console.log('Data fetched successfully:', data);
